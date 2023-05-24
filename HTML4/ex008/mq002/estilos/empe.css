@@ -2,9 +2,7 @@
 
 /* Aparelho em pé */
 
-body#aa {
+body{
     background-image: url(cev-portrait.jpg);
-    background-position: center bottom;
-    background-color: black;  
-    
+    background-position: center bottom;        
 }
