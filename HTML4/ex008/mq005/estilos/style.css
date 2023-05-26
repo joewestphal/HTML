@@ -1,11 +1,40 @@
 @charset "UTF-8"
 
-body html{
-    background-color: black;
+*{
+    margin: 0px;
+    padding: 0px;
 }
-main{
+html {
     background-color: lightgray;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    padding: 0px;
 }
-article{
-    background-color: aqua;
+
+header{
+    background-color: gray;
+}
+
+header>h1{
+    padding: 10px;
+    text-align: center;    
+}
+
+menu{
+    display: block;    
+}
+
+menu>ul{
+    list-style-type: none;
+}
+
+menu > ul > li > a{
+    display: block;
+    width: 100vw;
+    padding: 10px;
+    text-decoration: none;
+    background-color: rgb(76, 76, 76);
+    color: white;
+    text-align: center;
+    border-top: 2px solid black;
 }
