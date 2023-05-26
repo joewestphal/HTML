@@ -1,0 +1,11 @@
+@charset "UTF-8"
+
+body html{
+    background-color: black;
+}
+main{
+    background-color: lightgray;
+}
+article{
+    background-color: aqua;
+}
